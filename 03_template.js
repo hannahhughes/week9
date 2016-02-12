@@ -1,5 +1,5 @@
 port = process.argv[2];
-var port = (process.argv[2] ? Number(process.argv[2]) : 3000);
+var port = (process.argv[2] ? Number(process.argv[2]) : 2002);
 var net = require('net');
 var server = net.createServer(respond);
 
